@@ -27,7 +27,7 @@ const Form = () => {
         </div>
         <div className="text-area">
           <h1>Do You Want To Be An Equipper?</h1>
-          <h3>Join Our Wait List</h3>
+          <h3>Join Our Waitlist</h3>
         </div>
 
         <form ref={form} onSubmit = {sendEmail}>

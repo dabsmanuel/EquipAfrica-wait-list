@@ -29,7 +29,7 @@ input, textarea {
     background: transparent;
     border: 2px solid var(--color-primary);
     resize: none;
-    color: var(--color-white);
+    color: #000;
     transition: var(--transition);
 }
 
