@@ -1,0 +1,42 @@
+.container.form-div{
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.text-area {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.text-area h1 {
+    color: var(--color-primary);
+}
+
+.text-area h3 {
+    color: var(--color-footer);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    resize: none;
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+input:focus {
+    border: 2px solid var(--color-primary-variant);
+}
+
+textarea:focus {
+    border: 2px solid var(--color-primary-variant);
+}
